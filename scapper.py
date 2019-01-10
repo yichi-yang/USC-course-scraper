@@ -13,7 +13,7 @@ browser.get('https://classes.usc.edu/term-20191/#')
 soup = BeautifulSoup(browser.page_source, "html.parser")
 programs = soup.select('li[data-type="department"] a')
 for program in programs:
-    #time.sleep(5)
+    time.sleep(30)
     browser.get(program['href'])
     soup = BeautifulSoup(browser.page_source, "html.parser")
     sessions = soup.select('tr[data-section-id]')
