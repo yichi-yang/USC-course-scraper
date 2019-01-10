@@ -1,2 +1,2 @@
 # USC Course Scrapper
-A simple Python scrapper to scrape USC catalog and save to a csv file.
+A simple Python scrapper to scrape USC course catalog and print to stdout int a csv format.
